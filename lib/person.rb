@@ -1,0 +1,33 @@
+
+class Person
+    def initialize(name)
+        @name = name
+    end
+    
+
+end
+
+
+
+
+# ## Instructions
+
+# Open this lab by clicking the "Fork" button, cloning, and running the tests with `learn test`.
+
+# #### 1. `Person#initialize` with a Name
+
+# Define a `Person` class in `lib/person.rb` that provides an `#initialize` method
+# that accepts an argument for the person's name. That argument should be stored
+# within a `@name` instance variable.
+
+# #### 2. `Dog#initialize` with Name and Breed defaulting to "Mutt"
+
+# Define a `Dog` class in `lib/dog.rb` that provides an `#initialize` method that
+# accepts an argument for the dog's name. That argument should be stored within a
+# `@name` instance variable.
+
+# Additionally, `Dog#initialize` should accept a second optional argument for the
+# dog's breed stored in an instance variable `@breed`. When none is provided, it
+# should default to "Mutt".
+
+# Submit your solution with `learn submit`.
